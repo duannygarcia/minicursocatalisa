@@ -13,6 +13,7 @@ body {
 main {
     align-items: center;
     display: flex;
+    font-family: Tahoma;
     height: 100vh;
     justify-content: center;
     position: relative
@@ -31,9 +32,16 @@ main > section button{
     color: #483D8B;
     font-family: Verdana;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 300;
     letter-spacing: -0.6px;
-    line-height: 25px;
+    line-height: 20px;
     padding: 9px 20px;
     text-transform: uppercase;
+}
+
+#detalhes-container{
+    font-weight: bold;
+    list-style-type: none;
+    height: 50px;
+    width: 90%;
 }
