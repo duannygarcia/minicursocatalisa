@@ -32,16 +32,25 @@ main > section button{
     color: #483D8B;
     font-family: Verdana;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: -0.6px;
-    line-height: 20px;
-    padding: 9px 20px;
+    line-height: 30px;
+    padding: 9px 23px;
     text-transform: uppercase;
 }
 
 #detalhes-container{
     font-weight: bold;
     list-style-type: none;
-    height: 50px;
+    height: 70px;
     width: 90%;
 }
+
+#detalhes-container > li {
+    align-items: baseline;
+    display: flex;
+
+}
+
+#detalhes-container > li p{
+    color: white;
