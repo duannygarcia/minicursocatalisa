@@ -39,18 +39,17 @@ main > section img {
     width: 340px;
 }
 
-#detalhes-container{
+.detalhes-container {
     font-weight: bold;
     list-style-type: none;
     width: 90%;
 }
 
-#detalhes-container > li {
+.detalhes-container > li {
     align-items: baseline;
     display: flex;
-
 }
 
-#detalhes-container > li p {
+.detalhes-container > li p {
     color: white;
 }
